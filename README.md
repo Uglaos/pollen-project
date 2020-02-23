@@ -5,10 +5,15 @@ Returns all pollen levels for Osijek, Split and Zagreb
 GET http://localhost:5000/all Returns all pollen levels for Osijek, Split and Zagreb
 
 PARAMS
+
 city - Zagreb, Split or Osijek
+
 name - Pollen Name
+
 date - Specific date (%Y-%m-%d)
+
 date_from -  Date From (%Y-%m-%d)
+
 date_to  - Date To (%Y-%m-%d)
 
 
