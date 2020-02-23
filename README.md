@@ -42,5 +42,5 @@ Example
 
 GET http://localhost:5000/zagreb Gets all pollen data for Zagreb in the last 30 days
 
-![Zagreb pollen](https://ibb.co/fqt67ZT)
+![Zagreb pollen](https://i.ibb.co/cktfdRs/zagreb.png)
 
