@@ -23,12 +23,13 @@ def all():
     date_from = params.get('date_from')
     date_to = params.get('date_to')
 
-    if date_from and date_to:
+    if date:
+        query = query.filter_by(date=date)
+    elif date_from and date_to:
         query = query.filter(date_from > date_to)
     if city:
         query = query.filter_by(city=city)
-    if date:
-        query = query.filter_by(date=date)
+
     if name:
         query = query.filter_by(name=name)
 
