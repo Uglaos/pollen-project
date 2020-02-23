@@ -11,8 +11,6 @@ Returns all pollen levels for Osijek, Split and Zagreb
 
 ### GET http://localhost:5000/all
 
-Returns all pollen levels for Osijek, Split and Zagreb
-
 
 ### PARAMS
 
