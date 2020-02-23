@@ -9,8 +9,6 @@ Pollen API
 
 Returns all pollen levels for Osijek, Split and Zagreb
 
-### Request /all
-
 GET http://localhost:5000/all Returns all pollen levels for Osijek, Split and Zagreb
 
 
@@ -38,9 +36,12 @@ Example
   },
 ```
 
-### Request /zagreb
+Zagreb Pollen Report
+--------------------
 
-GET http://localhost:5000/zagreb Gets all pollen data for Zagreb in the last 30 days
+Shows pollen data chart for Zagreb in the last 30 days
+http://localhost:5000/zagreb 
 
 ![Zagreb pollen](https://i.ibb.co/cktfdRs/zagreb.png)
 
+ 
